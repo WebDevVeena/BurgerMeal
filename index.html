@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BurgerMeal</title>
+</head>
+
+<body class="overflow-x-hidden bg-[#feeeee]">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-5">
+        <h3 class="text-red-600 font-bold bg-white px-2">BURGER MEAL</h3>
+        <div class="flex gap-5">
+            <a href="#" class="text-red-600 font-medium">
+                <i class="fa fa-user text-slate-600"></i>
+                My Account
+            </a>
+            <a href="#" class="text-red-600 font-medium">
+                <i class="fa fa-shopping-cart text-slate-600"></i>
+                Cart
+            </a>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="w-screen h-screen overflow-hidden">
+        <div class="flex justify-center items-center relative">
+            <h1 class="text-[11rem] custom-outline text-white tracking-wider">BURGER</h1>
+            <div class="absolute top-1/2 -translate-y-[7%] left-1/2 -translate-x-1/2">
+                <img src="./images/meal1.png" class="drop-shadow-2xl" alt="">
+                <div class="flex justify-center py-10 gap-5">
+                    <button
+                        class="bg-red-500 text-white px-8 py-3 rounded-full font-semibold border-2 border-transparent cursor-pointer hover:scale-105 duration-500">Order
+                        Now</button>
+                    <button
+                        class="text-black px-8 py-3 rounded-full font-semibold border-2 border-red-600 cursor-pointer hover:scale-105 duration-500">View
+                        Menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menus Band -->
+    <div class="w-2/3 mx-auto bg-white px-5 py-1 my-10 flex justify-between items-center rounded-full">
+        <div class="w-24 h-24">
+            <img src="./images/burger.png" class="w-full object-contain" alt="">
+            <p class="text-center">Burger</p>
+        </div>
+        <div class="w-24 h-24">
+            <img src="./images/fries.png" class="w-2/3 mx-auto object-contain" alt="">
+            <p class="text-center">Fries</p>
+
+        </div>
+        <div class="w-24 h-24">
+            <img src="./images/drink.png" class="w-2/3 mx-auto object-contain" alt="">
+            <p class="text-center">Cokes</p>
+
+        </div>
+        <div class="w-24 h-24">
+            <img src="./images/pizza.png" class="w-2/3 mx-auto rotate-[50deg] object-contain" alt="">
+            <p class="text-center pt-5">Pizza</p>
+
+        </div>
+        <div class="w-24 h-24">
+            <img src="./images/meal2.png" class="w-2/3 mx-auto object-contain" alt="">
+            <p class="text-center">Combo</p>
+
+        </div>
+    </div>
+    <!-- Menus -->
+    <div class="w-2/3 mx-auto grid grid-cols-3 gap-10 py-10">
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal3.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Burger with fries</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 599</i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal4.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Full Burger Meal</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 399</i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal5.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Burger with Pre- fries</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 299</i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal6.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Burger with Chilled Coke</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 149</i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal1.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Burger party with family</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 599</i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-5 shadow-2xl shadow-gray-100  hover:scale-110 duration-500 cursor-pointer">
+            <img src="./images/meal2.png" class="w-[80%] mx-auto object-contain" alt="">
+            <p class="capitalize pt-5 font-semibold text-red-950">Burger with pizza combo</p>
+            <div class="flex justify-between items-center mt-1">
+                <div class="text-yellow-500">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="text-red-500">
+                    <i class="fa fa-indian-rupee"> 499</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="w-2/3 mx-auto py-10">
+        <div class="flex justify-between items-center">
+            <div>
+                <h3 class="uppercase text-white custom-outline2 text-[1.7rem] tracking-wider font-[verdana]">SPECIAL
+                    DEALS</h3>
+            </div>
+            <div>
+                <i class="fa fa-arrow-left bg-white px-5 py-1 cursor-pointer prev text-red-700"></i>
+                <i class="fa fa-arrow-right bg-white px-5 py-1 ml-10 cursor-pointer next text-red-700"></i>
+            </div>
+        </div>
+        <!-- slider body -->
+        <div class="w-full py-10 slider relative">
+            <div class="bg-white p-8 flex justify-between items-center">
+                <div>
+                    <p class="font-semibold text-red-950">Burger Party With Family</p>
+                    <div class="text-yellow-500 text-sm mt-1">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="pt-3">
+                        <div>
+                            <label class="text-2xl">&#127828;</label>
+                            <label class="text-sm">2 Burger</label>
+                        </div>
+                        <div>
+                            <label class="text-2xl">&#129380;</label>
+                            <label class="text-sm">1 Cold Drink - 250ml</label>
+                        </div>
+                        <div>
+                            <label class="text-2xl">&#x1F35F;</label>
+                            <label class="text-sm">Fries - Medium</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <img src="./images/meal1.png" alt="">
+                </div>
+            </div>
+            <div class="absolute w-full text-center bottom-5">
+                <button
+                        class="bg-red-500 text-white px-8 py-3 rounded-full font-semibold border-2 border-transparent cursor-pointer hover:scale-105 duration-500">Order
+                        Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards / Features -->
+    <div class="py-20 w-2/3 mx-auto flex justify-between gap-5">
+        <div class="bg-white p-5 rounded-2xl text-center w-1/4 shadow-md">
+            <i class="fa-solid fa-credit-card text-green-500 fa-2x"></i>
+            <h3 class="font-bold text-red-950 text-md py-2">Accept Cards</h3>
+            <p class="text-xs text-center">Lorem, ipsum dolor.</p>
+            <p class="text-xs text-center">Ipsum Lorem dolor.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl text-center w-1/4 shadow-md">
+            <i class="fa-solid fa-mobile-screen text-blue-400 fa-2x"></i>
+            <h3 class="font-bold text-red-950 text-md py-2">Online Shopping</h3>
+            <p class="text-xs text-center">Lorem, ipsum dolor.</p>
+            <p class="text-xs text-center">Ipsum Lorem dolor.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl text-center w-1/4 shadow-md">
+            <i class="fa-solid fa-truck-fast text-yellow-500 fa-2x"></i>
+            <h3 class="font-bold text-red-950 text-md py-2">Safe Delivery</h3>
+            <p class="text-xs text-center">Lorem, ipsum dolor.</p>
+            <p class="text-xs text-center">Ipsum Lorem dolor.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl text-center w-1/4 shadow-md">
+            <i class="fa-solid fa-location-dot text-red-500 fa-2x"></i>
+            <h3 class="font-bold text-red-950 text-md py-2">Best Location</h3>
+            <p class="text-xs text-center">Lorem, ipsum dolor.</p>
+            <p class="text-xs text-center">Ipsum Lorem dolor.</p>
+        </div>
+    </div>
+
+    <!-- Explore -->
+    <div class="w-2/3 mx-auto bg-white p-5 my-5">
+        <h3 class="uppercase text-white custom-outline3 text-lg text-center tracking-wider font-[verdana] my-5">Explore
+            Signature Menu</h3>
+        <p class="w-2/3 mx-auto text-sm text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt eum reprehenderit itaque ea earum nostrum.</p>
+        <div class="flex justify-center py-7 gap-5">
+                    <button
+                        class="bg-red-500 text-white px-8 py-3 rounded-full font-semibold border-2 border-transparent cursor-pointer hover:scale-105 duration-500">Order
+                        Now</button>
+                    <button
+                        class="text-black px-8 py-3 rounded-full font-semibold border-2 border-red-600 cursor-pointer hover:scale-105 duration-500">View
+                        Menu</button>
+                </div>
+    </div>
+
+    <!-- footer -->
+     <footer>
+        <p class="text-sm  text-center py-5 font-semibold">All Rights Reserved To BURGER MEAL - 2025</p>
+     </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
